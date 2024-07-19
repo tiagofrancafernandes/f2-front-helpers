@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+import { print } from './demo1-module.js';
+
+print('log from "%s"', process.argv[1]);
+
+
+// if (require.main !== module) {
+//     throw new Error('Executable-only module should not be required');
+// }

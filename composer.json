@@ -1,0 +1,38 @@
+{
+    "name": "tiagof2/f2-front-helpers",
+    "description": "A package for your front use",
+    "license": "MIT",
+    "keywords": [
+        "classes",
+        "frontend",
+        "helpers",
+        "javascript",
+        "laravel",
+        "tools",
+        "tiagof2"
+    ],
+    "homepage": "https://tiagofranca.com",
+    "authors": [
+        {
+            "name": "Tiago França",
+            "email": "dev+composer@tiagofranca.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TiagoF2\\FrontHelpers\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "extra": {
+        "tiagof2": {
+            "modules": []
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    }
+}
